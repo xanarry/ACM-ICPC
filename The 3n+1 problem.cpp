@@ -23,7 +23,6 @@ Sample Output
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
 int main(int argc, char const *argv[])
 {
 	int i, j;
