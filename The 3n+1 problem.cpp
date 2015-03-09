@@ -47,5 +47,6 @@ int main(int argc, char const *argv[])
 		}
 		cout << i << " " << j << " " << max_l << endl;
 	}
+	
 	return 0;
 }
