@@ -19,7 +19,6 @@ Sample Output
 201 210 89
 900 1000 174
 */
-
 #include <iostream>
 #include <algorithm>
 using namespace std;
