@@ -66,15 +66,4 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-/*
-  start:  integer;    // begins here
-stop: integer; //  ends here
- s:  string;
-c:   char; // temp
-
-start: integer; // begins here
-stop:  integer; // ends   here 
-s:     string;
-c:     char;    // temp
-*/
 
