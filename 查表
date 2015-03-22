@@ -1,0 +1,28 @@
+/*
+1  2  5  10 17
+4  3  6  11 18
+9  8  7  12 19
+16 15 14 13 20
+25 24 23 22 21
+给出如此矩阵，输入坐标和对应的值，判断是否正确，不正确的话则输出正确值
+*/
+#include <iostream>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    long long n, m, k, ans;
+    while( cin >> n >> m >> k)
+    {
+        if(n<m)
+            ans = (m-1)*(m-1)+n;
+        else
+            ans = n*n-m+1;
+        if(ans==k)
+            cout<<"YES"<<endl;
+        else
+            cout<<ans<<endl;
+    }
+    return 0;
+}
