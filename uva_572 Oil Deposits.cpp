@@ -1,3 +1,7 @@
+/*
+http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=19435
+使用深度优先搜索判断连通块的个数
+*/
 #include <iostream>
 using namespace std;
 
@@ -43,12 +47,3 @@ int main(int argc, char const *argv[])
     }
     return 0;
 }
-
-/*
-5 5
-****@
-*@@*@
-*@**@
-@@@*@
-@@**@
-*/
