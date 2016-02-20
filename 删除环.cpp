@@ -1,18 +1,3 @@
-/*
-有一个用数字连接成的环, 数字的大小在1-100直接, 环的长度在1到1000之间,环的每个数字唯一, 现在指定一个起点, 并从这个点的下一个位置开始删除, 只到环中只有一个数字, 假如起点的值是n, 那么删除从n开始后面的第n个元素m, 再从m开始, 删除后面第m个数字, 如此不断删除, 只到最后只剩下一个数字, 输出这个数字
-假如环是1 2 3 4 5, 起点为1, 那么依次得到
-1 3 4 5
-1 3 5
-1 3
-3
-所以最后得到3
-
-输入
-8 7
-8 3 4 2 9 7 1 6
-输出
-2
-*/
 #include <iostream>
 #include <string>
 #include <stack>
@@ -61,6 +46,11 @@ int main(int argc, char const *argv[])
             start = h;
     }
 
+    if (n == 1)
+    {
+        cout << 1 << endl;
+        return 0;
+    }
     while (start->next != start)
     {
         int t = start->key;
@@ -74,10 +64,3 @@ int main(int argc, char const *argv[])
     cout << start->key << endl;
     return 0;
 }
-
-
-
-
-
-
-
